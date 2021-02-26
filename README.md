@@ -1,2 +1,2 @@
-# ba-chripunov-victor-2
+# ba-chripunov-victor-1
 Учебный репозиторий студента Хрипунова Виктора
