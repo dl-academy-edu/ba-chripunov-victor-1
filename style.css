@@ -1,0 +1,162 @@
+  
+.header{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    list-style: none;    
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+    list-style-type: none;   
+}
+body{
+    margin: 0;
+    box-sizing: border-box;   
+}   
+a {
+    text-decoration: none;
+    color:  #1E0606;
+}
+.container {
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header-logo{
+    margin-right: 60px;
+}
+.header-button{
+    margin-left: 500px;
+}
+.header-item{
+    margin-right: 16px;
+}
+.header-contact {
+    font-weight: bold;   
+}
+.banner{ 
+    background-image:url('image\image1.jpg');
+    background-color: #EEE4DB;
+    background-repeat: no-repeat;   
+}
+.outline{
+    list-style: none
+}
+.button{
+    background-color: black;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    padding: 9px 22px;
+    border: none;
+    text-transform: uppercase;
+}
+.text{
+padding-left: 133px;
+}
+.servise-list{
+    display: flex;
+    justify-content: space-between;
+}
+.servise-item{
+    height: 270px;
+    width: 280px;
+   padding-left: 20px;
+    
+}
+.image{ 
+    max-width: 100%;
+    width: 480px;
+    height: 559px;
+    left: 110px;
+    top: 1243px;
+}
+.Delivery{
+    display: flex;
+}
+.outline-brands { 
+    display: flex;
+    justify-content: space-between;
+    list-style: none; 
+}
+.Credit{
+    width: 540px;
+height: 472px;
+left: 650px;
+top: 1273px;
+}
+.container-Delivery{
+    display: flex;
+    justify-content: space-between;
+}
+.head-t{
+font-family: Montserrat,sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 46px;
+text-transform: uppercase;
+}
+.story {
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+}
+.for-buyers{
+font-family: Crimson Text;
+font-style: italic;
+font-weight: bold;
+font-size: 26px;
+line-height: 32px;
+}
+.container-about{
+    display: flex;
+}
+.Life{
+width: 543px;
+height: 236px;
+left: 110px;
+top: 2069px;
+background: #E1F0F7;
+}
+.Contacts{
+width: 543px;
+height: 349px;
+left: 710px;
+top: 2043px;
+background: #E1F0F7;
+}
+.container-bottom{
+    background-color: #434343;color:#FFFFFF;
+    display: flex; 
+    position: absolute;
+    width: 1400px;
+    height: 555px;
+    left: 0px;
+    top: 2452px;
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+}
+.Navigation{
+    width: 380px;
+height: 281px;
+left: 110px;
+top: 100px;
+}
+.network{
+    display: flex;
+    width: 380px;
+height: 166px;
+left: 910px;
+top: 100px;
+}
