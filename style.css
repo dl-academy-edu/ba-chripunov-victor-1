@@ -136,7 +136,7 @@ background: #E1F0F7;
 .container-bottom{
     background-color: #434343;color:#FFFFFF;
     display: flex; 
-    position: absolute;
+    
     width: 1400px;
     height: 555px;
     left: 0px;
