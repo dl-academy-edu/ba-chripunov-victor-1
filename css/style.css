@@ -24,12 +24,16 @@ a {
     max-width: 1180px;
     width: 100%;
     margin: 0 auto;
+    
 }
 .header-logo{
     margin-right: 60px;
 }
-.header-button{
+.header button{
     margin-left: 500px;
+    border: none;
+    background-color: #FFFFFF;
+
 }
 .header-item{
     margin-right: 16px;
@@ -83,6 +87,8 @@ padding-left: 133px;
     display: flex;
     justify-content: space-between;
     list-style: none; 
+    padding-top: 90px;
+
 }
 .Credit{
     width: 540px;
@@ -93,6 +99,7 @@ top: 1273px;
 .container-Delivery{
     display: flex;
     justify-content: space-between;
+   padding-top: 90px;
 }
 .head-t{
 font-family: Montserrat,sans-serif;
@@ -101,6 +108,7 @@ font-weight: bold;
 font-size: 38px;
 line-height: 46px;
 text-transform: uppercase;
+
 }
 .story {
 font-family: Open Sans;
@@ -116,27 +124,20 @@ font-weight: bold;
 font-size: 26px;
 line-height: 32px;
 }
-.container-about{
-    display: flex;
+.container-about{   
+     display: flex;
+    padding-top: 90px;
 }
 .Life{
-width: 543px;
-height: 236px;
-left: 110px;
-top: 2069px;
 background: #E1F0F7;
+margin-right: 57px;
 }
 .Contacts{
-width: 543px;
-height: 349px;
-left: 710px;
-top: 2043px;
-background: #E1F0F7;
+ background: #E1F0F7;
 }
 .container-bottom{
     background-color: #434343;color:#FFFFFF;
     display: flex; 
-    
     width: 1400px;
     height: 555px;
     left: 0px;
@@ -160,3 +161,31 @@ height: 166px;
 left: 910px;
 top: 100px;
 }
+.switch{
+ display: flex;
+ 
+}
+.but{
+    border: none;
+    background-color: #FFFFFF;
+    padding-top:20px;
+    padding-right: 6px;
+}
+.finds{
+    padding-left: 20px;
+}
+.footer{
+    padding-top: 90px;
+}
+.Join{
+    align-items: center;
+    padding: 9px 22px;
+    background: #000000;
+    color: white;
+    border: none;
+    font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+text-transform: uppercase;
