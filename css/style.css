@@ -1,4 +1,4 @@
-  
+
 .header{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -23,8 +23,7 @@ a {
 .container {
     max-width: 1180px;
     width: 100%;
-    margin: 0 auto;
-    
+    margin: 0px auto;
 }
 .header-logo{
     margin-right: 60px;
@@ -138,6 +137,7 @@ margin-right: 57px;
 .container-bottom{
     background-color: #434343;color:#FFFFFF;
     display: flex; 
+    justify-content: space-around;
     width: 1400px;
     height: 555px;
     left: 0px;
@@ -160,6 +160,16 @@ top: 100px;
 height: 166px;
 left: 910px;
 top: 100px;
+}
+.social{
+  padding-right: 10px;
+  padding-top: 20px;
+}
+.form{
+    background-color: #666666;
+    color: white;
+    height: 35px;   width: 280px  ;
+
 }
 .switch{
  display: flex;
@@ -189,3 +199,20 @@ font-weight: bold;
 font-size: 16px;
 line-height: 22px;
 text-transform: uppercase;
+}
+.WebDesign{
+    padding-top: 30px;
+}
+.Copy{
+    padding-top: 20px;
+}
+.Rating{
+    display: flex;
+    padding-top: 10px;
+}
+.Star{
+    padding-left: 5px;
+}
+.Company{
+    padding-right: 30px;
+}

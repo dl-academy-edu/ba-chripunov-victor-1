@@ -5,72 +5,79 @@
     <title>Catalog</title>
 </head>
 <body>
-    <header>
-        <img src="image\Union.png">
- <nav>
-     <ul>
-         <li><a href="#">blog</a></li>
-         <li><a href="#">catalog</a></li>
-         <li><a href="#">about us</a></li>
-         <li><input type="text"><button><img src="image\search.png"></button></li>
-         <li><a href="#">contact us</a></li>     
-     </ul> 
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/catalog.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <header class="header container">
+    <nav>  
+        <ul class="header-nav">
+        <img src="image\Union.png"class="header-logo">
+         <li class="header-item"><a href="#">BLOG</a></li>
+         <li class="header-item"><a href="#">CATALOG</a></li>
+         <li class="header-item"><a href="#">ABOUT US</a></li>
+         <li class="header-button"><button><img src="image\search.png"></button></li>
+         <li class="header-contact"><a href="">CONTACT US</a></li>     
+     </ul>
     </nav>
-    </header>
+</header>
     <section>
-        <h2>Category Products</h2>
-        <ul>
-            <li><a href="#">home</a></li>
-            <li><a href="#">catalog</a></li>
+        <h2 class="head-t">Category Products</h2>
+        <ul class="outline select">
+            <li class="outsel"><a class="home" href="#">Home</a></li>
+            <li class="outsel"><img src="image\Vector (Stroke).png"></li>
+            <li class="outsel"><a class="Catalog" href="#">Catalog</a></li>
         </ul>
     </section>
-    <section>
-        <ul>
+    <section >
+       
+        <ul class="outline">
+            <div class="Group" >
             <li>
                 <a href="#">
                     <img src="image\Group1.jpg"> 
-                    <h3>APPAREL KIDS</h3>
                 </a>
             </li>
             <li>
                 <a href="#">
                     <img src="image\Group2.png"> 
-                    <h3>HOLIDAY SHOP</h3> 
                 </a> 
             </li>
             <li>
                 <a href="#">
                     <img src="image\Group3.jpg">
-                    <h3>TOYS</h3>
                 </a>
             </li>
+      </div>
+       <div>
             <li>
                 <a href="#">
                     <img src="image\Group4.jpg">
-                    <h3>ACCESSORIES</h3>
                 </a>
             </li>
             <li>
                 <a href="#"><img src="image\group5.jpg" >
-                    <h3>SALE</h3>
                 </a>
             </li>
             <li>   
                 <a href="#"><img src="image\group6.jpg">
-               <h3>APPAREL ADULTS</h3></a>
+            </li>
+        </div>
          </ul>
+    
      </section>
      <Section>
-             <h2>Product Description</h2>
-             <ul>
+             <h2 class="head-t">Product Description</h2>
+             <ul class="outline">
                  <li>
-                     <P>Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You can even bathe her, just like a little sister.</P>
+                     <P class="story">Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You can even bathe her, just like a little sister.</P>
                  </li>
                  <li>
-                     <P>A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright. Such a doll will be an excellent choice for a gift for a girl from 4 years old.</P>
+                     <P class="story">A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright. Such a doll will be an excellent choice for a gift for a girl from 4 years old.</P>
                  </li>
                  <li>
-                     <P>The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a pair of hairpins and elastic bands for hair, as well as two bracelets: one for the doll, the other for her young mistress.</P>
+                     <P class="story">The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a pair of hairpins and elastic bands for hair, as well as two bracelets: one for the doll, the other for her young mistress.</P>
                  </li>
              </ul>
     </section>
