@@ -23,3 +23,31 @@
 .Group{
 display: flex;
 padding-top: 50px;
+}
+.img{
+    margin-right: 20px;
+}
+.Group-bottom{
+display: flex;
+padding-top: 23px;
+padding-left: 310px;
+}
+
+.Description{
+ width: 680px;
+height: 256px;
+left: 310px;
+top: 919px;
+margin-left: 310px;
+margin-right: 410px;
+
+}
+.Product{
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+margin-left: 40px;
+}
