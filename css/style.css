@@ -41,9 +41,9 @@ a {
     font-weight: bold;   
 }
 .banner{ 
-    background-image:url('image\image1.jpg');
-    background-color: #EEE4DB;
-    background-repeat: no-repeat;   
+     background-image:url(.image\image1.jpg);
+     background-color: #EEE4DB;
+     background-repeat: no-repeat; 
 }
 .outline{
     list-style: none
