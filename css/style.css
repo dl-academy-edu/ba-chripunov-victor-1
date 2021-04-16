@@ -40,10 +40,13 @@ a {
 .header-contact {
     font-weight: bold;   
 }
-.banner{ 
-     background-image:url(.image\image1.jpg);
-     background-color: #EEE4DB;
-     background-repeat: no-repeat; 
+.banner{  
+    padding-top: 129px;
+background: url(../image/image1.jpg); 
+     background-color:  #EEE4DB;
+     background-repeat: no-repeat;
+     background-position:   right;
+   
 }
 .outline{
     list-style: none
@@ -100,7 +103,7 @@ top: 1273px;
     justify-content: space-between;
    padding-top: 90px;
 }
-.head-t{
+.head-t {
 font-family: Montserrat,sans-serif;
 font-style: normal;
 font-weight: bold;
@@ -138,10 +141,8 @@ margin-right: 57px;
     background-color: #434343;color:#FFFFFF;
     display: flex; 
     justify-content: space-around;
-    width: 1400px;
-    height: 555px;
-    left: 0px;
-    top: 2452px;
+    max-width: 1400px;
+    width: 100%;
     font-family: Open Sans;
 font-style: normal;
 font-weight: normal;
@@ -149,10 +150,8 @@ font-size: 16px;
 line-height: 22px;
 }
 .Navigation{
-    width: 380px;
-height: 281px;
-left: 110px;
-top: 100px;
+   padding-top: 100px;
+   padding-bottom: 174px;
 }
 .network{
     display: flex;
@@ -215,4 +214,22 @@ text-transform: uppercase;
 }
 .Company{
     padding-right: 30px;
-}
+   
+hr {
+    border: none;
+    background-color: #666666;
+    height: 1px; }
+   
+    .line{
+        
+        left: 7.86%;
+        right: 7.86%;
+        top: 73.69%;
+        bottom: 26.13%;
+        
+        background: #666666;
+
+    }
+   
+
+   
