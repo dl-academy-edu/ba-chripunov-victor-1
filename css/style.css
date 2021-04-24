@@ -1,0 +1,235 @@
+
+.header{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    list-style: none;    
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+    list-style-type: none;   
+}
+body{
+    margin: 0;
+    box-sizing: border-box;   
+}   
+a {
+    text-decoration: none;
+    color:  #1E0606;
+}
+.container {
+    max-width: 1180px;
+    width: 100%;
+    margin: 0px auto;
+}
+.header-logo{
+    margin-right: 60px;
+}
+.header button{
+    margin-left: 500px;
+    border: none;
+    background-color: #FFFFFF;
+
+}
+.header-item{
+    margin-right: 16px;
+}
+.header-contact {
+    font-weight: bold;   
+}
+.banner{  
+    padding-top: 129px;
+background: url(../image/imageмонстр.png); 
+     background-color:  #EEE4DB;
+     background-repeat: no-repeat;
+     background-position:   right;
+   
+}
+.outline{
+    list-style: none
+}
+.button{
+    background-color: black;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    padding: 9px 22px;
+    border: none;
+    text-transform: uppercase;
+}
+.text{
+padding-left: 133px;
+}
+.servise-list{
+    display: flex;
+    justify-content: space-between;
+}
+.servise-item{
+    height: 270px;
+    width: 280px;
+   padding-left: 20px;
+    
+}
+.image{ 
+    max-width: 100%;
+    width: 480px;
+    height: 559px;
+    left: 110px;
+    top: 1243px;
+}
+.Delivery{
+    display: flex;
+}
+.outline-brands { 
+    display: flex;
+    justify-content: space-between;
+    list-style: none; 
+    padding-top: 90px;
+
+}
+.Credit{
+    width: 540px;
+height: 472px;
+left: 650px;
+top: 1273px;
+}
+.container-Delivery{
+    display: flex;
+    justify-content: space-between;
+   padding-top: 90px;
+}
+.head-t {
+font-family: Montserrat,sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 46px;
+text-transform: uppercase;
+
+}
+.story {
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+}
+.for-buyers{
+font-family: Crimson Text;
+font-style: italic;
+font-weight: bold;
+font-size: 26px;
+line-height: 32px;
+}
+.container-about{   
+     display: flex;
+    padding-top: 90px;
+}
+.Life{
+background: #E1F0F7;
+margin-right: 57px;
+}
+.Contacts{
+ background: #E1F0F7;
+}
+.container-bottom{
+    background-color: #434343;color:#FFFFFF;
+    display: flex; 
+    justify-content: space-around;
+    max-width: 1400px;
+    width: 100%;
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+}
+.Navigation{
+   padding-top: 100px;
+   padding-bottom: 174px;
+}
+.network{
+    display: flex;
+    width: 380px;
+height: 166px;
+left: 910px;
+top: 100px;
+}
+.social{
+  padding-right: 10px;
+  padding-top: 20px;
+}
+.form{
+    background-color: #666666;
+    color: white;
+    height: 35px;   width: 280px  ;
+
+}
+.switch{
+ display: flex;
+ 
+}
+.but{
+    border: none;
+    background-color: #FFFFFF;
+    padding-top:20px;
+    padding-right: 6px;
+}
+.finds{
+    padding-left: 20px;
+}
+.footer{
+    padding-top: 90px;
+}
+.Join{
+    align-items: center;
+    padding: 9px 22px;
+    background: #000000;
+    color: white;
+    border: none;
+    font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+text-transform: uppercase;
+}
+.WebDesign{
+    padding-top: 30px;
+}
+.Copy{
+    padding-top: 20px;
+}
+.Rating{
+    display: flex;
+    padding-top: 10px;
+}
+.Star{
+    padding-left: 5px;
+}
+.Company{
+    padding-right: 30px;
+   
+hr {
+    border: none;
+    background-color: #666666;
+    height: 1px; }
+   
+    .line{
+        
+        left: 7.86%;
+        right: 7.86%;
+        top: 73.69%;
+        bottom: 26.13%;
+        
+        background: #666666;
+
+    }
+   
+
+   
