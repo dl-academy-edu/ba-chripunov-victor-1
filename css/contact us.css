@@ -1,0 +1,96 @@
+
+
+.contact-form {
+    max-width: 680px;
+    width: 100%;
+    background: #E5EAF8;
+    
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.contact-form fieldset{
+    border: none;
+    
+}
+.contact-form input{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+.contact-form textarea{background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box       
+}
+
+    
+    
+
+.form_2{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.contact-Name input{
+   width: 615px;
+height: 73px;
+padding: 20px ;
+}
+.contact-wrapper input{
+    width: 290px;
+height: 73px;
+}
+.contact-Message textarea{
+    width: 600px;
+height: 173px;
+left: 150px;
+top: 529px;
+resize: none;
+}
+.text-block1{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #1E0606;
+}
+.text-block2{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 34px;
+text-transform: uppercase;
+color: #C29974;
+}
+.text-checkbox{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+color: #1E0606;
+}
+.SUBMIT-btn{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 9px 22px;
+width: 106px;
+height: 40px;
+left: 150px;
+top: 761px;
+background: #000000;
+border: none;
+color: #FFFFFF;;
+}
+.text-checkbox input{
+width: 19px;
+height: 19px;
+left: 150px;
+top: 722px;
+}
