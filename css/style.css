@@ -42,7 +42,11 @@ a {
 }
 .banner{  
     padding-top: 129px;
+<<<<<<< HEAD
 background: url(../image/imageмонстр.png); 
+=======
+background: url(../image/image1.jpg); 
+>>>>>>> 88fb846a5a1d8eabfc082aff8107f4ba9345ad5a
      background-color:  #EEE4DB;
      background-repeat: no-repeat;
      background-position:   right;
